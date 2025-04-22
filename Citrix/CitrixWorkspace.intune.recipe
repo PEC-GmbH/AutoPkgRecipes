@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Citrix Workspace.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.CitrixWorkspace</string>
+	<string>com.github.pec.intune.CitrixWorkspace</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
