@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest Omnissa Horizon Client disk image, extracts the installer package and prepares it for deployment.</string>
       <key>Identifier</key>
-      <string>com.github.rtrouton.pkg.OmnissaHorizonClient</string>
+      <string>com.github.pec.intune.OmnissaHorizonClient</string>
       <key>Input</key>
       <dict>
          <key>NAME</key>
