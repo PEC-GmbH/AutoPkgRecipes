@@ -12,6 +12,8 @@
          <string>Omnissa Horizon Client</string>
          <key>APPNAME</key>
          <string>Omnissa Horizon Client</string>
+         <key>description</key>
+	   <string>Omnissa Horizon Clients Mac allow you to connect to your Omnissa Horizon virtual desktop from your device of choice giving you on-the-go access from any location.</string>
          <key>VENDOR</key>
          <string>Omnissa</string>
          <key>SOFTWARETITLE1</key>
@@ -107,11 +109,11 @@
             <key>description</key>
             <string>%description%</string>
             <key>displayname</key>
-            <string>%display_name%</string>
+            <string>%APPNAME%</string>
             <key>icon</key>
             <string>%icon_file_path%</string>
             <key>publisher</key>
-            <string>%developer%</string>
+            <string>%VENDOR%</string>
             <key>version</key>
             <string>%version%</string>
           </dict>
