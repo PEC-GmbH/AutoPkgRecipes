@@ -1,14 +1,13 @@
-<!-- Disabling the recipe: grumpydrew repo was deleted.
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Description</key>
-	<string>Downloads latest Bitwarden disk image.</string>
 	<key>Identifier</key>
-	<string>com.github.pec.intune.Bitwarden</string>
+	<string>local.intune.Bitwarden</string>
 	<key>Input</key>
 	<dict>
+		<key>NAME</key>
+		<string>Bitwarden</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
@@ -19,11 +18,37 @@
 		<string>Bitwarden, Inc.</string>
 		<key>display_name</key>
 		<string>Bitwarden</string>
+		<key>promotion_info</key>
+		<array>
+			<dict>
+				<key>group_id</key>
+				<string>2fed68fe-657f-4ce6-90fd-75c8f0e84fc6</string>
+				<key>intent</key>
+				<string>available</string>
+			</dict>
+		</array>
 	</dict>
-	<key>MinimumVersion</key>
-	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.grumpydrew.download.Bitwarden</string>
+	<string>com.github.wycomco.download.Bitwarden</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.wycomco.download.Bitwarden</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7e6e9e218f1a35f49f7e13b8207db316cf10141a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.wycomco-recipes/Bitwarden/Bitwarden.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>294d870b8763a6c43b1f71f842d7cacb4755beb16d16ef136ffd2325da8673b6</string>
+			</dict>
+		</dict>
+		<key>scripts</key>
+		<dict/>
+	</dict>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -72,4 +97,3 @@
 	</array>
 </dict>
 </plist>
--->
