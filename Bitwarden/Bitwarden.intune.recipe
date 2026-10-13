@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.intune.Bitwarden</string>
+	<string>com.github.pec.intune.Bitwarden</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
